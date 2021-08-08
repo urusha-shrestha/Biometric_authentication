@@ -1,7 +1,8 @@
-import 'package:biometric_authentication/screens/secret_screen.dart';
-import 'package:biometric_authentication/utils/authentication.dart';
-import 'package:biometric_authentication/widgets/custom_snack_bar.dart';
 import 'package:flutter/material.dart';
+
+import '../utils/authentication.dart';
+import '../widgets/custom_snack_bar.dart';
+import 'secret_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

@@ -1,7 +1,18 @@
 package a.biometric_authentication;
+import androidx.annotation.NonNull;
+import io.flutter.embedding.android.FlutterFragmentActivity;
+import io.flutter.embedding.engine.FlutterEngine;
+import io.flutter.plugins.GeneratedPluginRegistrant;
 
-import io.flutter.embedding.android.FlutterActivity;
-import io.flutter.app.FlutterFragmentActivity
 
 public class MainActivity extends FlutterFragmentActivity {
+
+    @Override
+    public void configureFlutterEngine(@NonNull FlutterEngine flutterEngine) {
+        GeneratedPluginRegistrant.registerWith(flutterEngine);
+    }
 }
+/*
+
+public class MainActivity extends FlutterActivity {
+}*/
